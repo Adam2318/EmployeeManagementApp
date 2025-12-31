@@ -1,36 +1,36 @@
 # ====================================
 # Node / Angular
 # ====================================
-book-list-app/node_modules/
-book-list-app/dist/
-book-list-app/.angular/
-book-list-app/*.tsbuildinfo
-book-list-app/npm-debug.log*
-book-list-app/yarn-debug.log*
-book-list-app/yarn-error.log*
-book-list-app/package-lock.json
-book-list-app/yarn.lock
+Employee-Management-app/node_modules/
+Employee-Management-app/dist/
+Employee-Management-app/.angular/
+Employee-Management-app/*.tsbuildinfo
+Employee-Management-app/npm-debug.log*
+Employee-Management-app/yarn-debug.log*
+Employee-Management-app/yarn-error.log*
+Employee-Management-app/package-lock.json
+Employee-Management-app/yarn.lock
 
 # Angular / Vite cache (optional, safer to ignore)
-book-list-app/.vite/
-book-list-app/.cache/
+Employee-Management-app/.vite/
+Employee-Management-app/.cache/
 
 # ====================================
 # .NET / Backend
 # ====================================
-BookApi/bin/
-BookApi/obj/
-BookApi/*.user
-BookApi/*.suo
-BookApi/*.userosscache
-BookApi/appsettings.Development.json
-BookApi/.vs/
-BookApi/*.dotCover
-BookApi/*.ncrunch*
-BookApi/*.resharper
-BookApi/TestResults/
-BookApi/*.log
-BookApi/*.vsix
+EmployeeManagementApi/bin/
+EmployeeManagementApi/obj/
+EmployeeManagementApi/*.user
+EmployeeManagementApi/*.suo
+EmployeeManagementApi/*.userosscache
+EmployeeManagementApi/appsettings.Development.json
+EmployeeManagementApi/.vs/
+EmployeeManagementApi/*.dotCover
+EmployeeManagementApi/*.ncrunch*
+EmployeeManagementApi/*.resharper
+EmployeeManagementApi/TestResults/
+EmployeeManagementApi/*.log
+EmployeeManagementApi/*.vsix
 
 # ====================================
 # IDE / Editor
