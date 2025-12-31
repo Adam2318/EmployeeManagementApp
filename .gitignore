@@ -1,0 +1,73 @@
+# ====================================
+# Node / Angular
+# ====================================
+book-list-app/node_modules/
+book-list-app/dist/
+book-list-app/.angular/
+book-list-app/*.tsbuildinfo
+book-list-app/npm-debug.log*
+book-list-app/yarn-debug.log*
+book-list-app/yarn-error.log*
+book-list-app/package-lock.json
+book-list-app/yarn.lock
+
+# Angular / Vite cache (optional, safer to ignore)
+book-list-app/.vite/
+book-list-app/.cache/
+
+# ====================================
+# .NET / Backend
+# ====================================
+BookApi/bin/
+BookApi/obj/
+BookApi/*.user
+BookApi/*.suo
+BookApi/*.userosscache
+BookApi/appsettings.Development.json
+BookApi/.vs/
+BookApi/*.dotCover
+BookApi/*.ncrunch*
+BookApi/*.resharper
+BookApi/TestResults/
+BookApi/*.log
+BookApi/*.vsix
+
+# ====================================
+# IDE / Editor
+# ====================================
+.vscode/
+.idea/
+*.code-workspace
+*.sln.docstates
+
+# ====================================
+# OS / System
+# ====================================
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# ====================================
+# Optional / Environment
+# ====================================
+.env
+.env.local
+.env.*.local
+
+# ====================================
+# Logs
+# ====================================
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# ====================================
+# Temporary / Backup
+# ====================================
+*.tmp
+*.bak
+*.swp
+*.swo
+*.old
