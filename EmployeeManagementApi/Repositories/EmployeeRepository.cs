@@ -14,9 +14,17 @@ namespace EmployeeManagementApi.Repositories
             await _context.SaveChangesAsync();
         }
 
-        public Task DeleteEmployeeAsync(int id)
+        public async Task DeleteEmployeeAsync(int id)
         {
-            throw new NotImplementedException();
+            var employeeInDb = await _context.Employees.FindAsync(id);
+
+            if (employeeInDb == null)
+            {
+                throw new KeyNotFoundException($"Employee with id {id} was not found.");
+            }
+
+            _context.Employees.Remove(employeeInDb);
+            await _context.SaveChangesAsync();
         }
 
         public async Task<IEnumerable<Employee>> GetAllAsync()
