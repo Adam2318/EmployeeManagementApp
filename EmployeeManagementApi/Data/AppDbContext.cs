@@ -1,11 +1,15 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using EmployeeManagementApi.Models;
+using Microsoft.EntityFrameworkCore;
 
-namespace EmployeeManagement.Data
+namespace EmployeeManagementApi.Data
 {
     public class AppDbContext : DbContext
     {
+        public DbSet<Employee> Employees { get; set; }
         public AppDbContext(DbContextOptions<AppDbContext> options)
             : base(options)
         {}
+
+
     }
 }

@@ -1,8 +1,8 @@
-using EmployeeManagement.Data;
+using EmployeeManagementApi.Data;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.InMemory;
 
-namespace EmployeeManagement
+namespace EmployeeManagementApi
 {
     public class Program
     {
@@ -13,6 +13,7 @@ namespace EmployeeManagement
             builder.Services.AddDbContext<AppDbContext>(
                 options => options.UseInMemoryDatabase("EmployeeDb")
                 );
+
             var app = builder.Build();
 
             app.MapGet("/", () => "Hello World!");
