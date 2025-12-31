@@ -29,9 +29,10 @@ namespace EmployeeManagementApi.Repositories
             return await _context.Employees.FindAsync(id);
         }
 
-        public Task UpdateEmployeeAsync(Employee employee)
+        public async Task UpdateEmployeeAsync(Employee employee)
         {
-            throw new NotImplementedException();
+            _context.Employees.Update(employee);
+            await _context.SaveChangesAsync();
         }
     }
 }
