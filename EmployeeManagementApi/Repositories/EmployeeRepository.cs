@@ -1,5 +1,6 @@
 ﻿using EmployeeManagementApi.Data;
 using EmployeeManagementApi.Models;
+using Microsoft.EntityFrameworkCore;
 
 namespace EmployeeManagementApi.Repositories
 {
@@ -18,14 +19,14 @@ namespace EmployeeManagementApi.Repositories
             throw new NotImplementedException();
         }
 
-        public Task<IEnumerable<Employee>> GetAllAsync()
+        public async Task<IEnumerable<Employee>> GetAllAsync()
         {
-            throw new NotImplementedException();
+            return await _context.Employees.ToListAsync();
         }
 
-        public Task<Employee> GetByIdAsync()
+        public async Task<Employee?> GetByIdAsync(int id)
         {
-            throw new NotImplementedException();
+            return await _context.Employees.FindAsync(id);
         }
 
         public Task UpdateEmployeeAsync(Employee employee)
