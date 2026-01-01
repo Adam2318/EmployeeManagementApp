@@ -1,19 +1,19 @@
 # ====================================
 # Node / Angular
 # ====================================
-Employee-Management-app/node_modules/
-Employee-Management-app/dist/
-Employee-Management-app/.angular/
-Employee-Management-app/*.tsbuildinfo
-Employee-Management-app/npm-debug.log*
-Employee-Management-app/yarn-debug.log*
-Employee-Management-app/yarn-error.log*
-Employee-Management-app/package-lock.json
-Employee-Management-app/yarn.lock
+employee-management-app/node_modules/
+employee-management-app/dist/
+employee-management-app/.angular/
+employee-management-app/*.tsbuildinfo
+employee-management-app/npm-debug.log*
+employee-management-app/yarn-debug.log*
+employee-management-app/yarn-error.log*
+employee-management-app/package-lock.json
+employee-management-app/yarn.lock
 
 # Angular / Vite cache (optional, safer to ignore)
-Employee-Management-app/.vite/
-Employee-Management-app/.cache/
+employee-management-app/.vite/
+employee-management-app/.cache/
 
 # ====================================
 # .NET / Backend
