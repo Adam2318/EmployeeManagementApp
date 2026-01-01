@@ -1,4 +1,5 @@
 using EmployeeManagementApi.Data;
+using EmployeeManagementApi.Repositories;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.InMemory;
 
@@ -23,6 +24,8 @@ namespace EmployeeManagementApi
                         .AllowAnyHeader();
                 });
             });
+
+            builder.Services.AddScoped<IEmployeeRepository, EmployeeRepository>();
 
             var app = builder.Build();
 
