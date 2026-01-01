@@ -125,5 +125,3 @@ This repository reflects how I approach **real software development**, not just 
 ## About Me
 
 I’m a **full-stack developer student** focused on building **clean, scalable, and maintainable applications** using modern technologies.
-
-Just tell me 🔥
